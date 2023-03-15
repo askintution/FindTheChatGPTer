@@ -11,8 +11,6 @@ ChatYuan（元语AI）是由元语智能开发团队开发和发布的，自称�
 
 https://github.com/clue-ai/ChatYuan
 
-基本原理：
-
 从披露的技术细节看，底层采用7亿参数规模的T5模型，并基于PromptClue进行了监督微调形成了ChatYuan。该模型基本上是ChatGPT技术路线的三步的第一步，没有实现奖励模型训练和PPO强化学习训练。
 
 ## Colossal AI
