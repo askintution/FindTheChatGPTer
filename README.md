@@ -47,7 +47,7 @@ LLaMA 架构更小，使得训练过程和推理速度更快，成本更低；
 
 支持各种尺寸的 LLaMA 模型架构，用户可以根据自身偏好对模型进行微调。
 
-另外一个比较火的是最近刚发布的alpaca（羊驼模型），是由斯坦福基于 Meta 的 LLaMA 7B 模型微调出一个新模型，其基本原理是让 OpenAI 的 text-davinci-003 模型以 self-instruct 方式生成 52K 指令样本，以此来微调LLaMA。该项目已将训练数据、生成训练数据的代码和超参数开源，模型文件尚未开源，以一天多达到5.6K星的关注度，估计很快会开源其模型文件供大家使用。其github地址为：
+        另外一个比较火的是最近刚发布的alpaca（羊驼模型），是由斯坦福基于 Meta 的 LLaMA 7B 模型微调出一个新模型，其基本原理是让 OpenAI 的 text-davinci-003 模型以 self-instruct 方式生成 52K 指令样本，以此来微调LLaMA。该项目已将训练数据、生成训练数据的代码和超参数开源，模型文件尚未开源，以一天多达到5.6K星的关注度，估计很快会开源其模型文件供大家使用。其github地址为：
 
 https://github.com/tatsu-lab/stanford_alpaca
 
