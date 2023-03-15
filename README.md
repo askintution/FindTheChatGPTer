@@ -9,7 +9,9 @@ ChatGPT爆火出圈，国内很多高校、研究机构和企业都发出类似C
 
 ChatYuan（元语AI）是由元语智能开发团队开发和发布的，自称第一个国内最早的一个功能型对话大模型，可以写文章、写作业、写诗歌、做中英文间的翻译；一些法律等特定领域问题也可以提供相关信息。该模型目前只支持中文，github链接是：
 
-https://github.com/clue-ai/ChatYuan基本原理：
+https://github.com/clue-ai/ChatYuan
+
+基本原理：
 
 从披露的技术细节看，底层采用7亿参数规模的T5模型，并基于PromptClue进行了监督微调形成了ChatYuan。该模型基本上是ChatGPT技术路线的三步的第一步，没有实现奖励模型训练和PPO强化学习训练。
 
