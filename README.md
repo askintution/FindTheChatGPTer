@@ -20,8 +20,11 @@ https://github.com/clue-ai/ChatYuan
 https://github.com/hpcaitech/ColossalAI
 
 本人基于该项目，更加明确了三步策略，并进行了分享：
+
 第一阶段（stage1_sft.py）：SFT监督微调阶段，该开源项目没有实现，这个比较简单，因为ColossalAI无缝支持Huggingface，本人直接用Huggingface的Trainer函数几行代码轻松实现，在这里我用了一个gpt2模型，从其实现上看，其支持GPT2、OPT和BLOOM模型；
+
 第二阶段（stage2_rm.py）：奖励模型（RM）训练阶段，即项目Examples里train_reward_model.py部分；
+
 第三阶段（stage3_ppo.py）：强化学习（RLHF）阶段，即项目train_prompts.py
 
 三个文件的执行需要放在ColossalAI项目中，其中代码中的cores即原始工程中的chatgpt，cores.nn在原始工程中变成了chatgpt.models
