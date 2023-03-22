@@ -71,3 +71,18 @@ https://alpaca-ai-custom6.ngrok.io
 
 https://github.com/togethercomputer/OpenChatKit
 
+## BELLE
+
+        基于 Stanford Alpaca ，实现基于Bloom的监督微调。Stanford Alpaca 的种子任务都是英语，收集的数据也都是英文，该开源项目是促进中文对话大模型开源社区的发展，针对中文做了优化，模型调优仅使用由ChatGPT生产的数据（不包含任何其他数据）。项目包含以下内容:
+
+        175个中文种子任务
+        
+        生成数据的代码
+        
+        2M生成的数据
+        
+        基于BLOOMZ-7B1-mt优化后的模型
+        
+github地址为
+
+https://github.com/LianjiaTech/BELLE
